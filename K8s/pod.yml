@@ -1,6 +1,6 @@
 #Example of pod
 apiVersion: v1 # key: value
-kind: pod # key: value
+kind: Pod # key: value
 metadata: # Dictionary
   name: nginx-pod
 spec: # Lists & Dictionary
