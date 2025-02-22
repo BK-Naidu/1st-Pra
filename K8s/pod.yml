@@ -1,0 +1,11 @@
+#Example of pod
+apiVersion: v1 # key: value
+kind: pod # key: value
+metadata: # Dictionary
+  name: nginx-pod
+spec: # Lists & Dictionary
+  containers:
+  - name: nginx-container
+    image: nginx
+    ports:
+    - containerPort: 80
