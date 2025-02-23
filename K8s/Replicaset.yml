@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: ReplicaSet
 meatadata:
-  name: nginx
+  name: replica
 spec:
   replicas: 1
   selector:
